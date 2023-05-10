@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    /* width: 100vw; */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 0 40px;
+    max-width: 600px;
+    width: 30vw;
+    height: 70vh;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+input{
+    padding: 4px 0;
+}
+
+button{
+    border-radius: 10px;
+    padding: 8px 0;
+    
+}
